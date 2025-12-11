@@ -1,0 +1,25 @@
+#Sample Input
+
+Patient ID: P2001
+Patient Name: Rahul Verma
+Diagnosis: Typhoid fever
+Email: rahulverma@email.com
+
+#Nurse Review
+
+Please review the patient details below before approving the discharge summary:
+
+Patient ID: P2001
+Patient Name: Rahul Verma
+Diagnosis: Typhoid fever
+
+[Approve] [Reject]
+
+# Final Discharge Summary
+
+Dear Mr. Verma,
+We hope you're feeling better and excited to go home. Before you leave, please find below some important instructions for your recovery.
+
+Medication Guidance:
+You have been prescribed antibiotics to combat the typhoid fever. Please take them exactly as directed by the doctor, usually this means taking the medication at regular intervals with food to minimize stomach upset.
+Do not stop taking the medication early, even if you start feeling better. Complete the full course to ensure the infection is fully treated.
