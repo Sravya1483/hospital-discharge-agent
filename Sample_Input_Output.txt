@@ -1,25 +1,69 @@
 #Sample Input
 
-Patient ID: P2001
-Patient Name: Rahul Verma
-Diagnosis: Typhoid fever
-Email: rahulverma@email.com
+Patient_ID: P2001
 
-#Nurse Review
+Patient_Name: Rahul Verma
+
+Age: 22
+
+Diagnosis: Typhoid fever
+
+Doctor_Name: Ashok Paul
+
+Medication:
+Ciprofloxacin 500 mg — 1 tablet twice daily for 7 days
+Paracetamol 500 mg — 1 tablet every 6 hours if fever or body pain persists
+ORS solution (Oral Rehydration Salts) — 1 packet dissolved in water, drink frequently to prevent dehydration
+
+Discharge_Notes: 
+Fever resolved after three days of treatment, and appetite gradually returned.
+No complications were noted during the hospital stay.
+The patient is being discharged in a stable condition with advice to continue oral antibiotics, maintain hydration, and follow up after one week.
+
+Email: rahul@email.com
+
+#Doctor Review
+
+Please review the patient details below before approving the discharge summary:
+
+Doctor Validation & Approval
+
+Please review the Al-generated discharge instructions. Click Approve to continue or Reject to stop.
 
 Please review the patient details below before approving the discharge summary:
 
 Patient ID: P2001
+
 Patient Name: Rahul Verma
+
 Diagnosis: Typhoid fever
 
-[Approve] [Reject]
+Medication: Ciprofloxacin 500mg-1 tablet twice daily
+
+Paracetamol 500mg-1 tablet every 6 hours if fever or body pain persists
+
+ORS solution-1 packet dissolved in water, drink frequently to prevent dehydration
+
+Doctor Name: Ashok Paul
+
+If all details are correct, click APPROVE to generate the final discharge summary.
+
+If any information is incorrect click REJECT
 
 # Final Discharge Summary
+Discharge Summary
 
-Dear Mr. Verma,
-We hope you're feeling better and excited to go home. Before you leave, please find below some important instructions for your recovery.
+Patient Information: Name: Rahul Verma Age: 22 Diagnosis: Typhoid Fever
 
-Medication Guidance:
-You have been prescribed antibiotics to combat the typhoid fever. Please take them exactly as directed by the doctor, usually this means taking the medication at regular intervals with food to minimize stomach upset.
-Do not stop taking the medication early, even if you start feeling better. Complete the full course to ensure the infection is fully treated.
+Hospital Course: Mr. Rahul Verma was treated for Typhoid Fever at our hospital. He received IV antibiotics and oral rehydration therapy. His fever resolved after three days of treatment, and his appetite returned gradually. No complications were noted during his stay. He is being discharged in stable condition with advice to continue oral antibiotics, maintain hydration, and follow up after one week.
+
+Medication:
+
+Ciprofloxacin 500mg: Take 1 tablet twice daily for 7 days as prescribed by Dr. Ashok Paul.
+
+Paracetamol 500mg: Take 1 tablet thrice daily for 3 days as prescribed by Dr. Ashok Paul.
+
+Follow-up: The patient is advised to follow up with Dr. Ashok Paul after one week for a check-up.
+
+Emergency Contact: In case of emergency, please contact Dr. Ashok Paul
+Note: The patient has been discharged in stable condition. However, if the patient experiences any symptoms such as fever, vomiting, or abdominal pain, they should immediately contact the hospital.
